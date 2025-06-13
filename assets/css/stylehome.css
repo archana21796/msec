@@ -178,7 +178,7 @@ span {
   font-size: 12px !important;
 }
 .event-ticker1-wrapper {
-  height: 400px;
+  height: 550px;
   overflow: hidden;
   position: relative;
 }
@@ -371,4 +371,13 @@ ul.committee {
   color: white !important;
   border-color: #df1529 !important;
   box-shadow: 0 4px 8px rgba(223, 21, 41, 0.2);
+}
+.styleventbtn{
+  color: white;
+  background-color: #df1529;
+  border: none;
+  transition: all 0.4s ease-in-out;
+}
+.styleventbtn:hover{
+  transform: scale(1.05);
 }
