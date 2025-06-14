@@ -381,3 +381,15 @@ ul.committee {
 .styleventbtn:hover{
   transform: scale(1.05);
 }
+.overview{
+  z-index: 1000;
+}
+.faculty-contact1{
+    background-color: 
+ color-mix(in srgb, var(--accent-color), transparent 90%) !important;
+    color: var(--accent-color);
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 20px;
+    display: inline-block;
+}

@@ -26,6 +26,8 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/stylehome.css" rel="stylesheet">
+
 
   <!-- =======================================================
   * Template Name: NiceSchool
@@ -178,7 +180,6 @@
     <div class="page-title dark-background" style="background-image: url(assets/img/campus.jpeg);">
       <div class="container position-relative">
         <h1>Faculty Staff</h1>
-        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
@@ -193,7 +194,7 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row mb-5">
+        <!-- <div class="row mb-5">
           <div class="col-lg-8 mx-auto">
             <div class="search-container" data-aos="fade-up" data-aos-delay="200">
               <div class="input-group">
@@ -220,7 +221,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="row">
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
@@ -228,19 +229,28 @@
               <h4 class="departments-title">Departments</h4>
               <ul class="nav nav-tabs flex-column">
                 <li class="nav-item">
-                  <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-1">Computer Science</button>
+                  <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-1">Information Technology</button>
                 </li>
                 <li class="nav-item">
-                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-2">Mathematics</button>
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-2">Computer Science</button>
                 </li>
                 <li class="nav-item">
-                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-3">Physics</button>
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-3">Artifical Intelligence</button>
                 </li>
                 <li class="nav-item">
-                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-4">Biology</button>
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-4">Electronics and Communication</button>
                 </li>
                 <li class="nav-item">
-                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-5">Chemistry</button>
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-5">Electrical and Electronics</button>
+                </li>
+                <li class="nav-item">
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-5">Mechanical Department</button>
+                </li>
+                <li class="nav-item">
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-5">Civil Department</button>
+                </li>
+                <li class="nav-item">
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-5">Humanities and Science</button>
                 </li>
               </ul>
             </div>
@@ -250,129 +260,10 @@
             <div class="tab-content">
               <div class="tab-pane fade show active" id="faculty--staff-tab-1">
                 <div class="department-info mb-4">
-                  <h3>Computer Science Department</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus, eros vel vestibulum laoreet, lacus mi efficitur velit, id pharetra odio magna nec augue.</p>
+                  <h3>Information Technology Department</h3>
                 </div>
-                <div class="row g-4">
-                  <div class="col-md-6 col-lg-4">
-                    <div class="faculty-card">
-                      <div class="faculty-image">
-                        <img src="assets/img/person/person-m-3.webp" class="img-fluid" alt="Faculty Member">
-                      </div>
-                      <div class="faculty-info">
-                        <h4>Dr. Jonathan Baker</h4>
-                        <p class="faculty-title">Department Chair, Professor</p>
-                        <div class="faculty-specialties">
-                          <span>Artificial Intelligence</span>
-                          <span>Machine Learning</span>
-                        </div>
-                        <div class="faculty-contact">
-                          <a href="mailto:jbaker@example.com"><i class="bi bi-envelope"></i> Email</a>
-                          <a href="#" class="profile-link"><i class="bi bi-person"></i> Profile</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div class="row g-4 align-items-center justify-content-center" id="staffContainer">
 
-                  <div class="col-md-6 col-lg-4">
-                    <div class="faculty-card">
-                      <div class="faculty-image">
-                        <img src="assets/img/person/person-f-5.webp" class="img-fluid" alt="Faculty Member">
-                      </div>
-                      <div class="faculty-info">
-                        <h4>Dr. Sarah Wilson</h4>
-                        <p class="faculty-title">Associate Professor</p>
-                        <div class="faculty-specialties">
-                          <span>Data Science</span>
-                          <span>Neural Networks</span>
-                        </div>
-                        <div class="faculty-contact">
-                          <a href="mailto:swilson@example.com"><i class="bi bi-envelope"></i> Email</a>
-                          <a href="#" class="profile-link"><i class="bi bi-person"></i> Profile</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 col-lg-4">
-                    <div class="faculty-card">
-                      <div class="faculty-image">
-                        <img src="assets/img/person/person-m-7.webp" class="img-fluid" alt="Faculty Member">
-                      </div>
-                      <div class="faculty-info">
-                        <h4>Dr. Michael Chen</h4>
-                        <p class="faculty-title">Assistant Professor</p>
-                        <div class="faculty-specialties">
-                          <span>Cybersecurity</span>
-                          <span>Blockchain Technology</span>
-                        </div>
-                        <div class="faculty-contact">
-                          <a href="mailto:mchen@example.com"><i class="bi bi-envelope"></i> Email</a>
-                          <a href="#" class="profile-link"><i class="bi bi-person"></i> Profile</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 col-lg-4">
-                    <div class="faculty-card">
-                      <div class="faculty-image">
-                        <img src="assets/img/person/person-f-9.webp" class="img-fluid" alt="Faculty Member">
-                      </div>
-                      <div class="faculty-info">
-                        <h4>Dr. Emily Rodriguez</h4>
-                        <p class="faculty-title">Associate Professor</p>
-                        <div class="faculty-specialties">
-                          <span>Software Engineering</span>
-                          <span>Human-Computer Interaction</span>
-                        </div>
-                        <div class="faculty-contact">
-                          <a href="mailto:erodriguez@example.com"><i class="bi bi-envelope"></i> Email</a>
-                          <a href="#" class="profile-link"><i class="bi bi-person"></i> Profile</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 col-lg-4">
-                    <div class="faculty-card">
-                      <div class="faculty-image">
-                        <img src="assets/img/person/person-m-11.webp" class="img-fluid" alt="Faculty Member">
-                      </div>
-                      <div class="faculty-info">
-                        <h4>Dr. Robert Williams</h4>
-                        <p class="faculty-title">Professor</p>
-                        <div class="faculty-specialties">
-                          <span>Algorithms</span>
-                          <span>Computational Theory</span>
-                        </div>
-                        <div class="faculty-contact">
-                          <a href="mailto:rwilliams@example.com"><i class="bi bi-envelope"></i> Email</a>
-                          <a href="#" class="profile-link"><i class="bi bi-person"></i> Profile</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 col-lg-4">
-                    <div class="faculty-card">
-                      <div class="faculty-image">
-                        <img src="assets/img/person/person-f-2.webp" class="img-fluid" alt="Faculty Member">
-                      </div>
-                      <div class="faculty-info">
-                        <h4>Angela Davis</h4>
-                        <p class="faculty-title">Department Administrator</p>
-                        <div class="faculty-specialties">
-                          <span>Administration</span>
-                          <span>Student Services</span>
-                        </div>
-                        <div class="faculty-contact">
-                          <a href="mailto:adavis@example.com"><i class="bi bi-envelope"></i> Email</a>
-                          <a href="#" class="profile-link"><i class="bi bi-person"></i> Profile</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
 
@@ -517,6 +408,7 @@
 
   </main>
 
+
   <footer id="footer" class="footer position-relative dark-background">
 
     <div class="container footer-top">
@@ -543,13 +435,13 @@ Email: principal@msec.edu.in</span></p>
         </div>
 
         
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-2 col-md-6 footer-links">
           <h4>Google Map</h4>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.683484227926!2d80.22393577454787!3d13.055807913027596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266f499eee457%3A0x4d3f7e677496e707!2sMeenakshi%20Sundararajan%20Engineering%20College!5e0!3m2!1sen!2sin!4v1749464448776!5m2!1sen!2sin" width="200" 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.683484227926!2d80.22393577454787!3d13.055807913027596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266f499eee457%3A0x4d3f7e677496e707!2sMeenakshi%20Sundararajan%20Engineering%20College!5e0!3m2!1sen!2sin!4v1749464448776!5m2!1sen!2sin" width="150" 
           height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-2 col-md-6 footer-links">
           <h4>Academics</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -560,18 +452,18 @@ Email: principal@msec.edu.in</span></p>
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-2 col-md-6 footer-links">
           <h4>Important Links</h4>
           <ul>
-            <li><a href="#">Help Desk</a></li>
-            <li><a href="#">Mandatory Disclosure</a></li>
+            <li><a href="./helpdesk.html">Help Desk</a></li>
+            <li><a href="./MandatoryDisclosureMSEC.pdf">Mandatory Disclosure</a></li>
             <li><a href="#">Privacy policy</a></li>
             <!-- <li><a href="#">Marketing</a></li>
             <li><a href="#">Graphic Design</a></li> -->
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-2 col-md-6 footer-links">
           <h4>Social Media</h4>
           <ul class="">
             <li><a href="https://www.facebook.com/MeenakshiSundararajanEngineeringCollege/" target="_blank"><i class="bi bi-facebook fs-3 me-2"></i></a></li>
@@ -617,6 +509,10 @@ Email: principal@msec.edu.in</span></p>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/script.js"></script>
+<script type="module" src="assets/js/facultydetails.js"></script>
+
+
 
 </body>
 
