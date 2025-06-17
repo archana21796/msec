@@ -385,11 +385,84 @@ ul.committee {
   z-index: 1000;
 }
 .faculty-contact1{
-    background-color: 
- color-mix(in srgb, var(--accent-color), transparent 90%) !important;
+    /* background-color: 
+ color-mix(in srgb, var(--accent-color), transparent 90%) !important; */
     color: var(--accent-color);
     font-size: 0.75rem;
     padding: 3px 8px;
     border-radius: 20px;
     display: inline-block;
 }
+.administrationcontent:hover p{
+  color: #df1529 !important;
+}
+.administrationcontent:hover{
+  transition: all 0.2s ease-in-out;
+  border-top: 5px solid #df1529;
+}
+
+    .tools-section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .tools-section h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .tools-section p {
+      color: #ccc;
+      margin-bottom: 40px;
+    }
+
+    .scroll-container {
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .tool-track {
+      display: inline-block;
+      animation: scroll 50s linear infinite;
+    }
+
+    .tool-track:hover {
+      animation-play-state: paused;
+    }
+
+    .tool {
+      display: inline-block;
+      background: white;
+      border-radius: 12px;
+      padding: 10px 20px;
+      margin: 0 10px;
+      color: #df1529;
+      font-weight: 500;
+      white-space: nowrap;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .tool img {
+      /* height: 20px; */
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    @media (min-width: 1002px) {
+
+    .style2024{
+      height: 900px !important;
+    }
+    .style2023{
+
+      height: 700px !important;
+    }
+    .style2022{
+      height: 950px !important;
+    }
+  }

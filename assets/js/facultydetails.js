@@ -1,7 +1,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
 import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-firestore.js";
 
-// ✅ Firebase config
 const firebaseConfig = {
   apiKey: "AIzaSyAJm0LiLJchN86HzeCJHn3qKqdOhv0H_DE",
   authDomain: "niranjan-58d39.firebaseapp.com",
@@ -12,24 +11,18 @@ const firebaseConfig = {
   measurementId: "G-L30Y7NK061"
 };
 
-// ✅ Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-// ✅ DOM target
 const container = document.getElementById("staffContainer");
 
-// ✅ Clear previous content
 container.innerHTML = "";
 
-// ✅ Async function wrapper (you missed wrapping await in a function)
 async function loadFaculty() {
   const querySnapshot = await getDocs(collection(db, "staff"));
   querySnapshot.forEach((doc) => {
     const staff = doc.data();
 
-    // ✅ Only show "Computer Science" department
-    // if (staff.department !== "Computer Science") return;
 
     const photoUrl = staff.imageUrl || "https://via.placeholder.com/80";
 

@@ -1610,13 +1610,13 @@ section,
   z-index: -1;
 }
 
-.testimonials .testimonial-item:nth-child(3n-1) {
+/* .testimonials .testimonial-item:nth-child(3n-1) {
   margin-top: 3rem;
 }
 
 .testimonials .testimonial-item:nth-child(3n) {
   margin-top: 1.5rem;
-}
+} */
 
 .testimonials .testimonial-item.highlight .testimonial-content {
   /* background-color: color-mix(in srgb, var(--accent-color), transparent 92%); */
