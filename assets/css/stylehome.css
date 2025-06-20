@@ -466,3 +466,38 @@ ul.committee {
       height: 950px !important;
     }
   }
+  .stylealumnicontent{
+    text-align: justify !important;
+  }
+  .event-ticker-container {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.event-ticker-list {
+  display: flex;
+  flex-direction: column;
+  animation: scrollTicker 40s linear infinite;
+}
+
+@keyframes scrollTicker {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.event-item {
+  padding: 1.2rem;
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+/* Pause animation on hover */
+.event-ticker-container:hover .event-ticker-list {
+  animation-play-state: paused;
+}
