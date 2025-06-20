@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+
   fetch("googlereview.php")
     .then((response) => response.json())
     .then((reviews) => {
