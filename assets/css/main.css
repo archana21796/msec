@@ -925,7 +925,7 @@ section,
 }
 
 .hero .hero-container .stats-card {
-  background-color: color-mix(in srgb, var(--surface-color), transparent 95%);
+  background-color: #00000066;
   backdrop-filter: blur(10px);
   border-radius: 15px;
   padding: 30px;
@@ -980,6 +980,7 @@ section,
   font-weight: 800;
   margin: 0;
   line-height: 1;
+    color: white ;
 }
 
 .hero .hero-container .stats-card .stats-grid .stat-item .stat-content p {

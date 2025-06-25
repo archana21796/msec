@@ -43,9 +43,9 @@
 <body class="index-page">
      <div class="top-bar d-none d-xl-block">
     <ul class="nav-links">
-      <li><a href="admissions.html">Admissions 2025</a></li>
+      <li><a href="/msec/admission2025">Admissions 2025</a></li>
       <li><a href="coe.html">COE</a></li>
-      <li><a href="">Whey MSEC</a></li>
+      <li><a href="academics.html">Departments</a></li>
       <li><a href="placements.html">Placements</a></li>
       <li><a href="Centerofexcellence.html">Center of Excellence</a></li>
       <li><a href="alumni.html">Alumni</a></li>
@@ -60,12 +60,14 @@
 
     <!-- Logo Section -->
     <div class="d-flex flex-column flex-md-row align-items-center">
+            <button class="btn d-none d-lg-block bg-white rounded-3 mx-2 fw-bold">TNEA <br/> 1309</button>
       <img class="mseclogo" src="assets/img/mseclogo.png" alt="">
-      <div class="d-flex flex-column align-items-center justify-content-center">
-        <a href="index.html" class="logo d-flex align-items-center justify-content-center text-center text-lg-start">
-          <h1 class="sitename fs-1 fw-bold mt-lg-3 text-center text-lg-start">Meenakshi Sundararajan Engineering College</h1>
+      <div class="d-flex flex-column align-items-center justify-content-center text-center">
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center text-center">
+          <h1 class="sitename fs-1 fw-bold mt-lg-3 text-center">Meenakshi Sundararajan Engineering College</h1>
         </a>
-        <span class="styleheaderspan py-lg-2">(An Autonomous Institution)</span>
+        <span class="styleheaderspan">(An Autonomous Institution) | Managed by IIET Society</span>
+        <span class="styleheaderspan py-lg-2">Approved by AICTE, New Delhi | Affiliated to Anna University, Chennai</span>
         <span class="styleheaderspan">A Recognized Research Center by Anna University</span>
       </div>
     </div>
@@ -107,8 +109,7 @@
               </a>
               <ul class="dropdown-menu">
                 <li class="dropdown-submenu">
-                  <!-- 🔴 Remove data-bs-toggle="dropdown" to avoid Bootstrap JS interference -->
-                  <a href="#" class="dropdown-item" aria-expanded="false">Departments</a>
+                  <a href="academics.html" class="dropdown-item" aria-expanded="false">Departments</a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="academics.html">Computer Science</a></li>
                     <li><a class="dropdown-item" href="ece.html">Electronics</a></li>
@@ -197,7 +198,7 @@
             </li> -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
-                ERP 
+                ERP
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="https://erp.msec.edu.in/studentlogin/" target="_blank">ERP Student Login</a></li>
@@ -206,7 +207,7 @@
             </li>
                         <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
-                Others 
+                Others
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="./StudentVerificationForm.pdf" target="_blank">Students Verification form</a></li>
@@ -219,12 +220,13 @@
         </div>
       </div>
     </nav>
+    
   </div>
 </header>
 
 
   <main class="main">
-    <a href="admissions.html" class="admission-label" target="_blank">Admission 2025</a>
+    <a href="/msec/admission2025" class="admission-label" target="_blank">Admission 2025</a>
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
@@ -234,21 +236,28 @@
           <source src="./assets/videos/College Drone.mp4" type="video/mp4">
         </video>
                   </div>
-        <div class="overlay d-lg-none"></div>
+        <!-- <div class="overlay d-lg-none"></div> -->
         <div class="container tochange">
-          <div class="row h-100 align-items-m-center justify-content-center">
-            <div id="herocontent" class="col-lg-7 d-block" data-aos="zoom-out" data-aos-delay="100">
-              <div class="hero-content">
-                <h1 class="pt-5 changeheadingclr">Empowering Futures Through Education</h1>
+          <div class="row h-100 align-items-m-center justify-content-start">
+            <!-- <div id="herocontent" class="col d-block" data-aos="zoom-out" data-aos-delay="100">
+              <div class="hero-content"> -->
+                <!-- <h1 class="pt-5 changeheadingclr">Empowering Futures Through Education</h1> -->
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam ornare, imperdiet est eget, pretium augue. Nullam auctor felis in nibh gravida, eu viverra risus egestas.</p> -->
-                <div class="cta-buttons d-flex justify-content-center">
+                <!-- <div class="cta-buttons d-flex justify-content-center"> -->
                   <!-- <button class="stylecodebtn shadow-lg fw-bold">TNEA <br/> 1309</button> -->
                   <!-- <a href="admissions.html" class="btn-primary">Admission 2025</a>
                   <a href="academics.html" class="btn-secondary">Explore Departments</a> -->
-                </div>
-              </div>
+                <!-- </div> -->
+              <!-- </div>
+            </div> -->
+            <div class="container d-lg-none d-lg-flex flex-column justify-content-end align-items-center my-4">
+          <div id="herocontent" class="hero-content text-center mx-auto" data-aos="zoom-out" data-aos-delay="100">
+            <div class="cta-buttons overview">
+              <button class="stylecodebtn px-5 shadow-lg fw-bold">TNEA <br/> 1309</button>
             </div>
-            <div class="col-lg-5 d-block" data-aos="zoom-out" data-aos-delay="200">
+          </div>
+        </div>
+            <div class="col-lg-5 d-none d-md-block my-4 my-md-0" data-aos="zoom-out" data-aos-delay="200">
               <div class="stats-card">
                 <div class="stats-header">
                   <h3>Why Choose Us</h3>
@@ -296,18 +305,7 @@
             </div>
           </div>
         </div>
-        <!-- <div class="container d-none d-lg-flex flex-column justify-content-end align-items-center" style="min-height: 90vh;">
-          <div id="herocontent" class="hero-content text-center mx-auto" data-aos="zoom-out" data-aos-delay="100">
-            <div class="cta-buttons overview">
-              <button class="stylecodebtn px-5 shadow-lg fw-bold">TNEA <br/> 1309</button>
-              <div class="second-row d-none">
-                <a href="admissions.html" class="btn-primary">Admission 2025</a>
-                <a href="academics.html" class="btn-secondary">Explore Departments</a>
-              </div>
-            </div>
-
-          </div>
-        </div> -->
+        
 
 
 
@@ -366,7 +364,7 @@
         <div class="row mb-5">
           <div class="col-lg-6 pe-lg-5" data-aos="fade-right" data-aos-delay="200">
             <h2 class="display-6 fw-bold mb-4">Empowering Minds, <span>Shaping Futures</span></h2>
-            <p class="lead msectextdesign mb-4">Meenakshi Sundararajan Engineering College (MSEC) was established by the IIET Society in 2001. This institution is a part of the prestigious KRS Group 
+            <p class="lead msectextdesign mb-4">Meenakshi Sundararajan Engineering College (MSEC) was established by the IIET Society in 2001. This institution is a part of the prestigious KRS Group
               of Institutions which also includes the renowned IIET (Indian Institute of Engineering Technology) established in 1947 by our Founder Late Shri K.R.Sundararajan, the well-known Meenakshi College for Women
                and the more recently established Meenakshi Sundararajan School of Management. The institutions on the KRS Campus are known for the quality education they impart and their stringent levels of discipline.
                 We have consistently outshone all our peers, not only in academics, but in co-curricular activities as well. imparting Engineering education to young men and women, grooming their overall personality with the
@@ -412,7 +410,7 @@
                 <i class="bi bi-rocket-takeoff"></i>
               </div>
               <h3>Our Mission</h3>
-              <p class="msectextdesign">MSEC, Chennai constantly strives to be a Centre of Excellence with the singular aim of producing students of outstanding academic excellence and 
+              <p class="msectextdesign">MSEC, Chennai constantly strives to be a Centre of Excellence with the singular aim of producing students of outstanding academic excellence and
                 sterling character to benefit the society, our nation and the world at large.</p>
             </div>
           </div>
@@ -540,8 +538,8 @@
                 </div> <!-- event-ticker1 -->
               </div> <!-- event-ticker1-wrapper -->
               <div class="d-flex align-items-center justify-content-center p-4">
-                <button 
-                  class="styleventbtn p-2 rounded-5 shadow-lg" 
+                <button
+                  class="styleventbtn p-2 rounded-5 shadow-lg"
                   onclick="window.location.href='news.html'">
                   Click to view more events
                 </button>
@@ -767,7 +765,7 @@
                         <span><i class="bi bi-book"></i> 90 Credits</span>
                         <span><i class="bi bi-kanban"></i> Fall Only</span>
                       </div>
-                      <p class="coursetext">The department of Humanities and Science was established with vision to foster innovative ideas 
+                      <p class="coursetext">The department of Humanities and Science was established with vision to foster innovative ideas
                         and research among the students and faculty members. It serves as the basis of liberal arts education and provides a platform to explore new horizons in the world of science.</p>
                       <a href="#" class="program-btn"><span>Learn More</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
@@ -828,12 +826,12 @@ Build future-ready solutions through hands-on coding and industry-led learning a
               </div>
             </div>
             <div class="col-12 row align-items-center justify-content-center isotope-item filter-bachelor" data-aos="zoom-in" data-aos-delay="100">
-              <div class="col-12 col-md-4 col-xl-3"> 
+              <div class="col-12 col-md-4 col-xl-3">
                 <a href="academics.html" target="_blank" class="text-decoration-none">
                   <button class="p-3 rounded-5 explorebtn shadow-lg">
                     Explore All departments <i class="bi bi-arrow-right fw-bold ps-2"></i>
                   </button>
-                </a>             
+                </a>            
               </div>
             </div>
            <!-- <div class="col-lg-6 isotope-item filter-master" data-aos="zoom-in" data-aos-delay="100">
@@ -1147,7 +1145,7 @@ Build future-ready solutions through hands-on coding and industry-led learning a
                         <span class="testimonialtext">CEO of Lumme Inc. Listed in 2018 Forbes List, under the category
                            '30 under 30'for her contribution to healthcaresector</span>
                       </div>
-                    </div> 
+                    </div>
                   </div>
                   <div class="carousel-item">
                       <div class="client-info d-flex flex-column">
@@ -1297,7 +1295,7 @@ Build future-ready solutions through hands-on coding and industry-led learning a
                     <div class="card p-4 centertext testimonial-card rounded-5 text-center bg-white shadow-lg">
                       <div class="text-warning mb-2 fs-5">Loading...</div>
                       <small class="text-muted">Please wait</small>
-                    </div>               
+                    </div>              
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#google-carousel" data-bs-slide="prev">
@@ -1349,7 +1347,7 @@ Build future-ready solutions through hands-on coding and industry-led learning a
               </div>
             </div>
           </div> -->
-    <!-- 
+    <!--
           <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
             <div class="testimonial-content">
               <div class="quote-pattern">
@@ -1494,7 +1492,7 @@ Build future-ready solutions through hands-on coding and industry-led learning a
 
     </section> -->
 
-<!-- 
+<!--
 <iframe
     src="https://www.chatbase.co/chatbot-iframe/JJLsl1Ox4f_8TgpXD8yGw"
     width="100%"
@@ -1529,10 +1527,10 @@ Email: principal@msec.edu.in</span></p>
           </div> -->
         </div>
 
-        
+       
         <div class="col-lg-2 col-md-6 footer-links">
           <h4>Google Map</h4>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.683484227926!2d80.22393577454787!3d13.055807913027596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266f499eee457%3A0x4d3f7e677496e707!2sMeenakshi%20Sundararajan%20Engineering%20College!5e0!3m2!1sen!2sin!4v1749464448776!5m2!1sen!2sin" width="150" 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.683484227926!2d80.22393577454787!3d13.055807913027596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266f499eee457%3A0x4d3f7e677496e707!2sMeenakshi%20Sundararajan%20Engineering%20College!5e0!3m2!1sen!2sin!4v1749464448776!5m2!1sen!2sin" width="150"
           height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 

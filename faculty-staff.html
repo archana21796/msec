@@ -42,15 +42,17 @@
 
 <header id="header" class="container-fluid header d-flex align-items-center">
   <div class="container-xl position-relative d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-between">
-    
+
     <!-- Logo Section -->
     <div class="d-flex flex-column flex-md-row align-items-center">
+            <button class="btn d-none d-lg-block bg-white rounded-3 mx-2 fw-bold">TNEA <br/> 1309</button>
       <img class="mseclogo" src="assets/img/mseclogo.png" alt="">
-      <div class="d-flex flex-column align-items-center justify-content-center">
-        <a href="index.html" class="logo d-flex align-items-center justify-content-center text-center text-lg-start">
-          <h1 class="sitename fs-1 fw-bold mt-lg-3 text-center text-lg-start">Meenakshi Sundararajan Engineering College</h1>
+      <div class="d-flex flex-column align-items-center justify-content-center text-center">
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center text-center">
+          <h1 class="sitename fs-1 fw-bold mt-lg-3 text-center">Meenakshi Sundararajan Engineering College</h1>
         </a>
-        <span class="styleheaderspan py-lg-2">(An Autonomous Institution)</span>
+        <span class="styleheaderspan">(An Autonomous Institution) | Managed by IIET Society</span>
+        <span class="styleheaderspan py-lg-2">Approved by AICTE, New Delhi | Affiliated to Anna University, Chennai</span>
         <span class="styleheaderspan">A Recognized Research Center by Anna University</span>
       </div>
     </div>
@@ -91,15 +93,46 @@
                 Academics
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="academics.html">Departments</a></li>
+                <li class="dropdown-submenu">
+                  <a href="academics.html" class="dropdown-item" aria-expanded="false">Departments</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="academics.html">Computer Science</a></li>
+                    <li><a class="dropdown-item" href="ece.html">Electronics</a></li>
+                    <li><a class="dropdown-item" href="mech.html">Mechanical</a></li>
+                  </ul>
+                </li>
                 <li><a class="dropdown-item" href="coe.html">COE</a></li>
                 <li><a class="dropdown-item" href="Centerofexcellence.html">Center of Excellence</a></li>
                 <li><a class="dropdown-item" href="https://msiic-clubs.web.app/" target="_blank">Students Club</a></li>
-                <!-- <li><a class="dropdown-item" href="#">Events & Activities</a></li> -->
                 <li><a class="dropdown-item" href="./ApplicationProjectGuidance.pdf" target="_blank">Project Guidance - Application</a></li>
               </ul>
             </li>
 
+              <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" role="button" aria-expanded="false">
+                Why MSEC             </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="counselling.html">Counselling</a></li>
+                <li><a class="dropdown-item" href="accolades.html">Accolades</a></li>
+                <li><a class="dropdown-item" href="MOU.html">Industrial Connect & MOU</a></li>
+
+              </ul>
+            </li>
+              <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" role="button" aria-expanded="false">
+                Accreditation & Awards            </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./AICTE.pdf">AICTE Approval</a></li>
+                <li><a class="dropdown-item" href="NBA.html">NBA</a></li>
+                <li><a class="dropdown-item" href="./AUTONOMOUS.pdf">Autonomous Status</a></li>
+                <li><a class="dropdown-item" href="./NAAC.pdf">NAAC</a></li>
+                <li><a class="dropdown-item" href="NIRF.html">NIRF</a></li>
+                <li><a class="dropdown-item" href="ARIIA.html">ARIIA</a></li>
+                <li><a class="dropdown-item" href="./AICTECII2020.pdf">AICTE-CII Ranking</a></li>
+
+
+              </ul>
+            </li>
 
            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
@@ -150,7 +183,7 @@
             </li> -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
-                ERP 
+                ERP
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="https://erp.msec.edu.in/studentlogin/" target="_blank">ERP Student Login</a></li>
@@ -159,7 +192,7 @@
             </li>
                         <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">
-                Others 
+                Others
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="./StudentVerificationForm.pdf" target="_blank">Students Verification form</a></li>
@@ -172,6 +205,7 @@
         </div>
       </div>
     </nav>
+    
   </div>
 </header>
 
@@ -251,13 +285,13 @@
                   <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-5">Electrical and Electronics</button>
                 </li>
                 <li class="nav-item">
-                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-5">Mechanical Department</button>
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-6">Mechanical Department</button>
                 </li>
                 <li class="nav-item">
-                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-5">Civil Department</button>
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-7">Civil Department</button>
                 </li>
                 <li class="nav-item">
-                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-5">Humanities and Science</button>
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#faculty--staff-tab-8">Humanities and Science</button>
                 </li>
               </ul>
             </div>
@@ -392,84 +426,51 @@
               <div class="tab-pane fade" id="faculty--staff-tab-3">
                 <div class="department-info mb-4">
                   <h3>Artifical Intelligence and Data Science</h3>
-                  <p>Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci.</p>
                 </div>
                 <div class="row g-4">
-                  <div class="col-md-6 col-lg-4">
-                    <div class="faculty-card">
-                      <div class="faculty-image">
-                        <img src="assets/img/person/person-m-9.webp" class="img-fluid" alt="Faculty Member">
-                      </div>
-                      <div class="faculty-info">
-                        <h4>Dr. Neil Armstrong</h4>
-                        <p class="faculty-title">Department Chair, Professor</p>
-                        <div class="faculty-specialties">
-                          <span>Quantum Physics</span>
-                          <span>Astrophysics</span>
-                        </div>
-                        <div class="faculty-contact">
-                          <a href="mailto:narmstrong@example.com"><i class="bi bi-envelope"></i> Email</a>
-                          <a href="#" class="profile-link"><i class="bi bi-person"></i> Profile</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
 
               <div class="tab-pane fade" id="faculty--staff-tab-4">
                 <div class="department-info mb-4">
                   <h3>Electronics and Communication Department</h3>
-                  <p>Vivamus elementum semper nisi. Sed fringilla mauris sit amet nibh. In auctor lobortis lacus. Suspendisse non nisl sit amet velit hendrerit rutrum.</p>
                 </div>
                 <div class="row g-4">
-                  <div class="col-md-6 col-lg-4">
-                    <div class="faculty-card">
-                      <div class="faculty-image">
-                        <img src="assets/img/person/person-f-12.webp" class="img-fluid" alt="Faculty Member">
-                      </div>
-                      <div class="faculty-info">
-                        <h4>Dr. Lisa Wong</h4>
-                        <p class="faculty-title">Department Chair, Professor</p>
-                        <div class="faculty-specialties">
-                          <span>Molecular Biology</span>
-                          <span>Genetics</span>
-                        </div>
-                        <div class="faculty-contact">
-                          <a href="mailto:lwong@example.com"><i class="bi bi-envelope"></i> Email</a>
-                          <a href="#" class="profile-link"><i class="bi bi-person"></i> Profile</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
 
               <div class="tab-pane fade" id="faculty--staff-tab-5">
                 <div class="department-info mb-4">
                   <h3>Electrical and Electronics Department</h3>
-                  <p>Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque. Suspendisse faucibus.</p>
                 </div>
                 <div class="row g-4">
-                  <div class="col-md-6 col-lg-4">
-                    <div class="faculty-card">
-                      <div class="faculty-image">
-                        <img src="assets/img/person/person-m-2.webp" class="img-fluid" alt="Faculty Member">
-                      </div>
-                      <div class="faculty-info">
-                        <h4>Dr. Daniel Smith</h4>
-                        <p class="faculty-title">Department Chair, Professor</p>
-                        <div class="faculty-specialties">
-                          <span>Organic Chemistry</span>
-                          <span>Biochemistry</span>
-                        </div>
-                        <div class="faculty-contact">
-                          <a href="mailto:dsmith@example.com"><i class="bi bi-envelope"></i> Email</a>
-                          <a href="#" class="profile-link"><i class="bi bi-person"></i> Profile</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
+                </div>
+              </div>
+               <div class="tab-pane fade" id="faculty--staff-tab-6">
+                <div class="department-info mb-4">
+                  <h3>Mechanical Department</h3>
+                </div>
+                <div class="row g-4">
+                  
+                </div>
+              </div>
+               <div class="tab-pane fade" id="faculty--staff-tab-7">
+                <div class="department-info mb-4">
+                  <h3>Civil Department</h3>
+                </div>
+                <div class="row g-4">
+                  
+                </div>
+              </div>
+               <div class="tab-pane fade" id="faculty--staff-tab-8">
+                <div class="department-info mb-4">
+                  <h3>Humanities and Science</h3>
+                </div>
+                <div class="row g-4">
+                  
                 </div>
               </div>
             </div>

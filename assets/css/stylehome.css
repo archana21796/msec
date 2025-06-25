@@ -528,7 +528,7 @@ body {
 }
 
 .top-bar {
-  background-color: #004d99;
+  background-color: white;
   padding: 10px 0;
 }
 
@@ -542,7 +542,7 @@ body {
 }
 
 .nav-links li {
-  margin: 0 10px;
+  margin: 0 15px;
   position: relative;
 }
 
@@ -550,18 +550,22 @@ body {
   content: "|";
   position: absolute;
   right: -10px;
-  color: white;
+  color: #013483;
 }
 
 .nav-links a {
-  color: white;
+    padding: 8px;
+  color: #013483;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
 }
 
+
 .nav-links a:hover {
-  color: #ffcc00;
+  background-color: #013483;
+  color: white;
+  border-radius: 10px;
 }
 
 .search-icon {
